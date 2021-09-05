@@ -9,7 +9,7 @@ face_cascade = cv2.CascadeClassifier('cascades\\data\\haarcascade_frontalface_al
 eye_cascade = cv2.CascadeClassifier('cascades\\data\\haarcascade_eye.xml')
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read("trainner\\trainner.yml")
+recognizer.read("trainner.yml")
 
 labels = {}
 with open("labels.pickle", "rb") as f:
@@ -31,8 +31,8 @@ while(True):
 
         id_, conf = recognizer.predict(roi_gray)
         if conf >= 45 and conf <= 85:
-          print(id_)
-          print(labels[id_])
+        #   print(id_)
+        #   print(labels[id_])
           font = cv2.FONT_HERSHEY_SIMPLEX
           name = labels[id_].capitalize()
           posY = y - 10
