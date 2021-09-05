@@ -6,7 +6,7 @@
 4. Run face-train.py
 
 
-#Rename file
+#usage of Rename.py file
 ---
 - This rename.py file is for rename images as 1, 2, 3, ... n. 
 - Update path variable.
