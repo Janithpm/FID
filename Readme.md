@@ -8,4 +8,6 @@
 
 #Rename file
 ---
-This rename.py file is for rename images as 1, 2, 3, ... n. have to update path variable. put the folder path of perticular subfolder that holds the images of perticular persion.
+- This rename.py file is for rename images as 1, 2, 3, ... n. 
+- Update path variable.
+- Put the folder path of perticular subfolder that holds the images of perticular persion.
