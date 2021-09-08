@@ -1,4 +1,4 @@
-#Before train the new model
+#Before train a new model
 ---
 1. Create a folder called "dataset" in root.
 2. Create subfolders for each person and catogories the photos.
