@@ -1,4 +1,4 @@
-#Do this steps before train the new model
+#Before train the new model
 ---
 1. Create a folder called "dataset" in root.
 2. Create subfolders for each person and catogories the photos.
@@ -6,7 +6,7 @@
 4. Run face-train.py
 
 
-#usage of Rename.py file
+#Rename.py file
 ---
 - This rename.py file is for rename images as 1, 2, 3, ... n. 
 - Update path variable.
